@@ -25,9 +25,9 @@ public class Medias {
 
         //pedimos que o scanner leia o que o usuário escreveu e armazene estes números nas variáveis
         System.out.println("Digite a primeira nota: ");
-        nota1 = sc.nextInt();
+        nota1 = sc.nextDouble();
         System.out.println("Digite a segunda nota:");
-        nota2 = sc.nextInt();
+        nota2 = sc.nextDouble();
 
         //Lembrar de usar parênteses para realizar a conta na ordem certa
         resultado = (nota1+nota2)/2;
